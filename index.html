@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Function Challenge</title>
 	<script>
 		(function() {
-			console.log("Hey this works!");
+			var num = prompt
+			function a(number) {
+				return number+5;
+			}
+			function b(number) {
+				return Math.round(Math.sqrt(Math.abs(number)));
+			}
+			function c(number) {
+				return number--;
+			}
+			console.log(a(b(c(5))));
 		})();
 	</script>
 	<style>
